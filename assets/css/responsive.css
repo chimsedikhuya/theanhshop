@@ -110,6 +110,7 @@
         animation: mobileSearchSideIn linear 0.3s;
         display: none;
     }
+
     @keyframes mobileSearchSideIn {
         from{
             opacity: 0;

@@ -1313,7 +1313,25 @@ i.home-product-item__like-icon-fill{
 .home-product__pagination{
     margin:48px 0 32px 0;
     padding-left: 0;
+
 }
+
+.pagination-item__link{
+    bottom: 0;
+    position: relative;
+}
+
+.pagination-item__link:hover {
+    top: -6px;
+    color: var(--primary-color);
+    background-color: #e1e1e1;
+}
+
+.pagination-item--active:hover{
+    color: var(--white-color);
+    top: 0;
+}
+
 
 
 /* Footer */
